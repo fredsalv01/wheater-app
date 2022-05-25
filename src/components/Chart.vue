@@ -29,6 +29,19 @@ export default {
               formatter: function (val) {
                   return val+'°'
               },
+              offsetX: 0,
+              offsetY: -5,
+              background: {
+                enabled: false,
+              }
+            },
+            tooltip: {
+              y: {
+                show: true,
+                formatter: function (val) {
+                  return val+'°'
+                },
+              },
             },
             stroke: {
               curve: 'smooth'
