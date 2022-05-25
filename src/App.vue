@@ -81,19 +81,68 @@
         <div class="right-tile">
           <h4>Today, 5 February</h4>
           <div class="days-wrapper">
-            <div></div>
+            <div class="day-indicator-wrapper">
+              <span class="day">MON</span>
+              <font-awesome-icon
+                id="search-icon"
+                icon="fa-solid fa-magnifying-glass"
+              />
+              <span class="degrees">19°</span>
+            </div>
             <span class="divider"></span>
-            <div></div>
+            <div class="day-indicator-wrapper">
+              <span class="day">TUE</span>
+              <font-awesome-icon
+                id="search-icon"
+                icon="fa-solid fa-magnifying-glass"
+              />
+              <span class="degrees">19°</span>
+            </div>
             <span class="divider"></span>
-            <div></div>
+            <div class="day-indicator-wrapper">
+              <span class="day">WED</span>
+              <font-awesome-icon
+                id="search-icon"
+                icon="fa-solid fa-magnifying-glass"
+              />
+              <span class="degrees">19°</span>
+            </div>
             <span class="divider"></span>
-            <div></div>
+            <div class="day-indicator-wrapper">
+              <span class="day">THU</span>
+              <font-awesome-icon
+                id="search-icon"
+                icon="fa-solid fa-magnifying-glass"
+              />
+              <span class="degrees">19°</span>
+            </div>
             <span class="divider"></span>
-            <div></div>
+            <div class="day-indicator-wrapper">
+              <span class="day">FRI</span>
+              <font-awesome-icon
+                id="search-icon"
+                icon="fa-solid fa-magnifying-glass"
+              />
+              <span class="degrees">19°</span>
+            </div>
             <span class="divider"></span>
-            <div></div>
+            <div class="day-indicator-wrapper">
+              <span class="day">SAT</span>
+              <font-awesome-icon
+                id="search-icon"
+                icon="fa-solid fa-magnifying-glass"
+              />
+              <span class="degrees">19°</span>
+            </div>
             <span class="divider"></span>
-            <div></div>
+            <div class="day-indicator-wrapper">
+              <span class="day">SUN</span>
+              <font-awesome-icon
+                id="search-icon"
+                icon="fa-solid fa-magnifying-glass"
+              />
+              <span class="degrees">19°</span>
+            </div>
           </div>
         </div>
       </div>
