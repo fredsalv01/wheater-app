@@ -80,6 +80,9 @@
       <div class="section-wrapper-right">
         <div class="right-tile">
           <h4>Today, 5 February</h4>
+          <div class="chart-wrapper">
+            <Chart></Chart>
+          </div>
           <div class="days-wrapper">
             <div class="day-indicator-wrapper">
               <span class="day">MON</span>
@@ -158,9 +161,11 @@
 </template>
 
 <script>
+import Chart from './components/Chart.vue';
 
 export default {
-  name: "App",
+    name: "App",
+    components: { Chart }
 };
 </script>
 
