@@ -26,19 +26,75 @@
 
     <div class="section-wrapper">
       <div class="section-wrapper-left">
-        <div class="left-tile">
-          
+        <div class="left-tile indicators">
+          <div class="indicators-wrapper">
+            <div class="indicators-item">
+              <img src="./assets/img/humidity.png" alt="humidity">
+              <span>
+                Humidity
+                <strong>56%</strong>
+              </span>
+            </div>
+            <div class="indicators-item">
+              <img src="./assets/img/wind.png" alt="wind">
+              <span>
+                Air Quality
+                <strong>151</strong>
+              </span>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="indicators-wrapper">
+            <div class="indicators-item">
+              <img src="./assets/img/sunrise.png" alt="sunrise">
+              <span>
+                Sunrise
+                <strong>6:45 AM</strong>
+              </span>
+            </div>
+            <div class="indicators-item">
+              <img src="./assets/img/sea.png" alt="sea">
+              <span>
+                Sunset
+                <strong>6:15 PM</strong>
+              </span>
+            </div>
+          </div>
         </div>
 
-        <div class="left-tile">
-          
+        <div class="left-tile bg-primary rain">
+          <div class="rain-item">
+            <span class="rain-indicator">
+              Monthly Rainfall
+              <strong>22mm</strong>
+            </span>
+          </div>
+          <div class="rain-item">
+            <span class="rain-indicator">
+              This year
+              <strong class="primary">+2%</strong>
+            </span>
+          </div>
         </div>
       </div>
       <div class="section-wrapper-right">
         <div class="right-tile">
-          
-         <Chart />  
-              
+          <h4>Today, 5 February</h4>
+          <div class="days-wrapper">
+            <div></div>
+            <span class="divider"></span>
+            <div></div>
+            <span class="divider"></span>
+            <div></div>
+            <span class="divider"></span>
+            <div></div>
+            <span class="divider"></span>
+            <div></div>
+            <span class="divider"></span>
+            <div></div>
+            <span class="divider"></span>
+            <div></div>
+          </div>
         </div>
       </div>
     </div>
@@ -46,14 +102,9 @@
 </template>
 
 <script>
-import Chart from './components/Chart.vue';
-
 
 export default {
   name: "App",
-  components: {
-    Chart,
-}
 };
 </script>
 
