@@ -18,14 +18,17 @@ export default {
           chartOptions: {
             chart: {
               type: 'area',
-              height: 350,
+              height: 200,
               zoom: {
                 enabled: false
               },
             },
             colors: ['#FFBF3B'],
             dataLabels: {
-              enabled: false
+              enabled: true,
+              formatter: function (val) {
+                  return val+'°'
+              },
             },
             stroke: {
               curve: 'smooth'
