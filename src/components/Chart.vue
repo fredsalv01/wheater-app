@@ -21,8 +21,9 @@ export default {
               height: 350,
               zoom: {
                 enabled: false
-              }
+              },
             },
+            colors: ['#FFBF3B'],
             dataLabels: {
               enabled: false
             },
@@ -39,30 +40,8 @@ export default {
             legend: {
               horizontalAlign: 'bottom'
             },
-            
           },
-          
-          
         },
-      // chartOptions: {
-      //   chart: {
-      //     width: 380,
-      //     type: 'pie'
-      //   },
-      //   labels: ['Dell', 'Apple', 'Mi', 'Hp', 'Acer'],
-      //   responsive: [{
-      //     breakpoint: 480,
-      //     options: {
-      //       chart: {
-      //         width: 200,
-      //       },
-      //       legend: {
-      //         position: 'bottom'
-      //       }
-      //     }
-      //   }]
-      // },
-      // series: [44, 55, 13, 43, 22]
     }
   },
 }
