@@ -85,7 +85,8 @@
               <span class="day">MON</span>
               <font-awesome-icon
                 id="search-icon"
-                icon="fa-solid fa-magnifying-glass"
+                icon="fa-solid fa-sun"
+                size="xl"
               />
               <span class="degrees">19°</span>
             </div>
@@ -94,7 +95,8 @@
               <span class="day">TUE</span>
               <font-awesome-icon
                 id="search-icon"
-                icon="fa-solid fa-magnifying-glass"
+                icon="fa-solid fa-cloud"
+                size="xl"
               />
               <span class="degrees">19°</span>
             </div>
@@ -103,7 +105,8 @@
               <span class="day">WED</span>
               <font-awesome-icon
                 id="search-icon"
-                icon="fa-solid fa-magnifying-glass"
+                icon="fa-solid fa-cloud-rain"
+                size="xl"
               />
               <span class="degrees">19°</span>
             </div>
@@ -112,7 +115,8 @@
               <span class="day">THU</span>
               <font-awesome-icon
                 id="search-icon"
-                icon="fa-solid fa-magnifying-glass"
+                icon="fa-solid fa-cloud-sun"
+                size="xl"
               />
               <span class="degrees">19°</span>
             </div>
@@ -121,7 +125,8 @@
               <span class="day">FRI</span>
               <font-awesome-icon
                 id="search-icon"
-                icon="fa-solid fa-magnifying-glass"
+                icon="fa-solid fa-wind"
+                size="xl"
               />
               <span class="degrees">19°</span>
             </div>
@@ -130,7 +135,8 @@
               <span class="day">SAT</span>
               <font-awesome-icon
                 id="search-icon"
-                icon="fa-solid fa-magnifying-glass"
+                icon="fa-solid fa-sun"
+                size="xl"
               />
               <span class="degrees">19°</span>
             </div>
@@ -139,7 +145,8 @@
               <span class="day">SUN</span>
               <font-awesome-icon
                 id="search-icon"
-                icon="fa-solid fa-magnifying-glass"
+                icon="fa-solid fa-cloud-sun"
+                size="xl"
               />
               <span class="degrees">19°</span>
             </div>
